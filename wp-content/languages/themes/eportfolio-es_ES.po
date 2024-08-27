@@ -1,0 +1,926 @@
+# Translation of Themes - ePortfolio in Spanish (Spain)
+# This file is distributed under the same license as the Themes - ePortfolio package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-06 10:52:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Themes - ePortfolio\n"
+
+#. Theme Name of the theme
+#: style.css classes/about.php:17
+#, gp-priority: high
+msgid "ePortfolio"
+msgstr "ePortfolio"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "ePortfolio is a free minimalist, SEO optimized multi-purpose WordPress Portfolio theme. ePortfolio is an ideal choice to create portfolio sites for photographers, digital marketers, agencies, graphic designers, video producers, web designers, web developers, professional bloggers and other freelance artistic or creative workers. This theme is compatible with Gutenberg, Elementor as well as other page builder plugins which helps you to deliver your content smoothly. Check our demo here:https://demo.themeinwp.com/eportfolio/"
+msgstr "ePortfolio es un tema WordPress de porfolio multipropósito, minimalista y optimizado para SEO. ePortfolio es una opción ideal para crear sitios de cartera para fotógrafos, especialistas en marketing digital, agencias, diseñadores gráficos, productores de video, diseñadores web, desarrolladores web, blogueros profesionales y otros trabajadores artísticos o creativos independientes. Este tema es compatible con Gutenberg, Elementor y otros plugins de creación de páginas que te ayudan a entregar tu contenido sin problemas. Echa un vistazo a nuestra demostración aquí: https://demo.themeinwp.com/eportfolio/"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins para instalar, actualizar o activar."
+
+#. translators: 1: install status, 2: update status
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: version number
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Hay uno o más plugins necesarios o recomendados para instalar, actualizar o activar."
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Actualizando el plugin: %s"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando el plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "El proceso de instalación y activación está comenzando. Este proceso puede tardar un poco en algunos alojamientos, así que, por favor, sé paciente."
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Ha fallado la instalación de %1$s."
+
+#. translators: 1: plugin name, 2: error message.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ha ocurrido un error durante la instalación de %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando el plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Ha fallado la activación del plugin."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "En este momento no hay plugins disponibles para activar."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No se han seleccionado plugins para activar. No se ha realizado ninguna acción."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "En este momento no hay plugins disponibles para actualizar."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "En este momento no hay plugins disponibles para instalar."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No se han seleccionado plugins para actualizar. No se ha realizado ninguna acción."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No se han seleccionado plugins para instalar. No se ha realizado ninguna acción."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2726
+#: classes/plugin-classes.php:31
+msgid "Activate"
+msgstr "Activar"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualizar"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Estado"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versión"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Fuente"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versión mínima necesaria:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocida"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para activar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para activar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Actualización disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Actualizaciones disponibles <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Necesita actualización"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Actualización necesaria no disponible"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2321
+#: functions.php:216
+msgid "Active"
+msgstr "Activo"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado, pero no activado"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Preempaquetado"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Necesario"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1121
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "El paquete remoto del plugin está compuesto por más de un archivo, pero los archivos no están empaquetados dentro de una carpeta."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:934
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Por favor, contacta con el proveedor del plugin y pídele que empaquete su plugin de acuerdo con las directrices de WordPress."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "El paquete remoto del plugin no contiene una carpeta con el slug deseado y no ha funcionado el renombrado."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:386
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:827
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2533
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Actualización necesaria"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Este plugin necesita ser actualizado para ser compatible con tu tema."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, contacta con el administrador de este sitio para obtener ayuda."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#. translators: 1: dashboard link.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugin instalados y activados correctamente. %1$s"
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin no activado. Se necesita una versión superior de %s para este tema. Por favor, actualiza el plugin."
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se ha realizado ninguna acción. El plugin %1$s ya está activo."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:388
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "El siguiente plugin ha sido activado correctamente:"
+msgstr[1] "Los siguientes plugins han sido activados correctamente:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:387
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comenzar a activar el plugin"
+msgstr[1] "Comenzar a activar los plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comenzar a actualizar el plugin"
+msgstr[1] "Comenzar a actualizar los plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comenzar a instalar el plugin"
+msgstr[1] "Comenzar a instalar los plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Algo ha ido mal con la API del plugin."
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalando el plugin: %s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalar los plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalar los plugins necesarios"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en «%2$s»"
+msgstr[1] "%1$s comentarios en «%2$s»"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en «%1$s»"
+
+#: inc/widgets/widgets.php:404
+msgid "Instagram URL:"
+msgstr "URL de Instagram:"
+
+#: inc/widgets/widgets.php:399
+msgid "Linkedin URL:"
+msgstr "URL de LinkedIn:"
+
+#: inc/widgets/widgets.php:394
+msgid "Twitter URL:"
+msgstr "URL de Twitter:"
+
+#: inc/widgets/widgets.php:389
+msgid "Facebook URL:"
+msgstr "URL de Facebook:"
+
+#: inc/widgets/widgets.php:370
+msgid "Name:"
+msgstr "Nombre:"
+
+#: inc/widgets/widgets.php:64 inc/widgets/widgets.php:185
+msgid "Number of Posts:"
+msgstr "Número de entradas:"
+
+#: inc/widgets/widgets.php:61 inc/widgets/widgets.php:182
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#: inc/widgets/widgets.php:175 inc/widgets/widgets.php:289
+#: inc/widgets/widgets.php:365
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/widgets/widgets.php:170
+msgid "Displays post form selected category specific for popular post in sidebars."
+msgstr "Muestra las entradas de una categoría específica seleccionada para las entradas populares en las barras laterales."
+
+#: inc/widgets/widgets-init.php:11 inc/widgets/widgets-init.php:20
+msgid "Add widgets here."
+msgstr "Añade aquí los widgets."
+
+#: inc/widgets/widget-base-class.php:289
+msgctxt "Remove"
+msgid "X"
+msgstr "X"
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Upload"
+msgstr "Subir"
+
+#: inc/customize/core/default.php:54
+msgid "Copyright All right reserved"
+msgstr "Copyright. Todos los derechos reservados."
+
+#: inc/customize/theme-option.php:270
+msgid "Enable Preloader"
+msgstr "Activar el precargador"
+
+#: inc/customize/theme-option.php:253
+msgid "Preloader Options"
+msgstr "Opciones del precargador"
+
+#: inc/customize/theme-option.php:243
+msgid "Footer Copyright Text"
+msgstr "Texto del copyright del pie de página"
+
+#: inc/customize/theme-option.php:226
+msgid "Footer Options"
+msgstr "Opciones del pie de página"
+
+#: inc/customize/theme-option.php:217
+msgid "Numeric"
+msgstr "Numérico"
+
+#: inc/customize/theme-option.php:216
+msgid "Default (Older / Newer Post)"
+msgstr "Por defecto (entrada anterior / siguiente)"
+
+#: inc/customize/theme-option.php:212
+msgid "Pagination Type"
+msgstr "Tipo de paginación"
+
+#: classes/about-render.php:209 inc/customize/theme-option.php:195
+msgid "Pagination Options"
+msgstr "Opciones de paginación"
+
+#: inc/customize/theme-option.php:142
+msgid "Layout Management"
+msgstr "Gestión del diseño"
+
+#: classes/about-render.php:77 inc/customize/theme-option.php:13
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: inc/template-tags.php:160
+msgid "ago"
+msgstr "atrás"
+
+#. translators: %s: post title
+#: inc/template-tags.php:76
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s"
+
+#: inc/customize/theme-option.php:185 inc/single-meta.php:92
+msgid "No Sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customize/theme-option.php:183 inc/single-meta.php:89
+msgid "Primary Sidebar - Content"
+msgstr "Barra lateral principal - Contenido"
+
+#: inc/customize/theme-option.php:184 inc/single-meta.php:86
+msgid "Content - Primary Sidebar"
+msgstr "Contenido - Barra lateral principal"
+
+#: inc/single-meta.php:82
+msgid "Single Page/Post Layout"
+msgstr "Diseño de las páginas/entradas individuales"
+
+#: classes/about-render.php:101 inc/single-meta.php:62
+msgid "Layout Settings"
+msgstr "Ajustes de diseño"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"screen-reader-text\"> «%s»</span>"
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:93 template-parts/content-page.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: inc/template-tags.php:206
+msgid "View all posts in %s"
+msgstr "Ver todas las entradas en %s"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#: functions.php:137
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:48
+msgid "Social Menu"
+msgstr "Menú social"
+
+#: functions.php:47 header.php:92
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/widgets/widgets.php:380
+msgid "Quotation:"
+msgstr "Cita:"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:66
+msgid "Tagged: %1$s"
+msgstr "Etiquetado: %1$s."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgctxt "list item separator"
+msgid " "
+msgstr " "
+
+#: inc/widgets/widgets-init.php:18
+msgid "Single Page/Post Sidebar"
+msgstr "Barra lateral para entradas/páginas individuales"
+
+#: inc/customize/theme-option.php:45
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: inc/template-functions.php:130
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/template-functions.php:125
+msgid "Elementor Page Builder"
+msgstr "Elementor Page Builder"
+
+#: inc/customize/customizer.php:48
+msgid "ePortfolio Pro"
+msgstr "ePortfolio Pro"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins necesarios"
+
+#: inc/widgets/widgets.php:329
+msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
+msgstr "El menú social no está establecido. Tienes que crear el menú y asignarlo al menú social en los ajustes de menús."
+
+#: inc/widgets/widgets.php:284
+msgid "Displays Social share."
+msgstr "Muestra los enlaces sociales para compartir."
+
+#: inc/widgets/widgets.php:59 inc/widgets/widgets.php:180
+msgid "Select Category:"
+msgstr "Seleccionar una categoría:"
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Choose Image"
+msgstr "Elegir una imagen"
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Select Image"
+msgstr "Seleccionar una imagen"
+
+#: inc/customize/customizer.php:49
+msgid "Upgrade To Pro"
+msgstr "Actualizar a Pro"
+
+#. Template Name of the theme
+msgid "Portfolio Page Template"
+msgstr "Plantilla de la página de porfolio"
+
+#: inc/widgets/widgets.php:385
+msgid "Bio Image:"
+msgstr "Imagen de la biografía:"
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3509
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3517
+msgid "%1$s done."
+msgstr "%1$s hecho."
+
+#: inc/customize/theme-option.php:163
+msgid "Regular Format"
+msgstr "Formato regular"
+
+#: inc/customize/theme-option.php:131
+msgid "2-Column Layout"
+msgstr "Diseño de 2 columnas"
+
+#: inc/customize/theme-option.php:130
+msgid "3-Column Layout"
+msgstr "Diseño de 3 columnas"
+
+#: inc/customize/page-template.php:138
+msgid "Two Column Grid"
+msgstr "Cuadrícula de dos columnas"
+
+#: inc/customize/theme-option.php:62
+msgid "Button URL Link"
+msgstr "Enlace de la URL del botón"
+
+#: inc/customize/page-template.php:116 inc/customize/theme-option.php:109
+msgid "List Post Layout"
+msgstr "Diseño de la lista de entradas"
+
+#: inc/customize/theme-option.php:162
+msgid "Time Span Format"
+msgstr "Formato de intervalo de tiempo"
+
+#: inc/customize/page-template.php:137
+msgid "Three Column Grid"
+msgstr "Cuadrícula de tres columnas"
+
+#: inc/customize/theme-option.php:159
+msgid "Select Date Format"
+msgstr "Selecciona el formato de la fecha"
+
+#: inc/customize/page-template.php:78 inc/customize/page-template.php:304
+msgid "Select No Of Slider"
+msgstr "Selecciona el número de diapositivas"
+
+#: inc/customize/page-template.php:117 inc/customize/theme-option.php:110
+msgid "Grid/Masonry Layout"
+msgstr "Diseño de cuadrícula/muro"
+
+#: inc/widgets/widgets.php:375
+msgid "Position/Sub Title:"
+msgstr "Posición/Subtítulo:"
+
+#: inc/customize/page-template.php:41
+msgid "Enable Slider On Blog"
+msgstr "Activar el carrusel en el blog"
+
+#: inc/customize/page-template.php:203
+msgid "Enable Portfolio Title"
+msgstr "Activar el título del porfolio"
+
+#: inc/customize/page-template.php:269
+msgid "Enable Overlay on Slider"
+msgstr "Activar la superposición del carrusel"
+
+#: classes/about-render.php:164 inc/widgets/widgets.php:410
+msgid "ePortfolio :- Bio Widget"
+msgstr "ePortfolio :- Widget de la biografía"
+
+#: inc/customize/page-template.php:59
+msgid "Category For Blog Slider"
+msgstr "Categoría del carrusel del blog"
+
+#. Template Name of the theme
+msgid "Photography Page Template"
+msgstr "Plantilla de la página de fotografía"
+
+#: inc/customize/theme-option.php:28
+msgid "Short Description Details"
+msgstr "Detalles de la descripción corta"
+
+#: classes/about-render.php:174 inc/widgets/widgets.php:73
+msgid "ePortfolio :- Slider Post"
+msgstr "ePortfolio :- Carrusel de entradas"
+
+#: classes/about-render.php:169 inc/widgets/widgets.php:194
+msgid "ePortfolio :- Recent Post"
+msgstr "ePortfolio :- Entrada reciente"
+
+#: classes/about-render.php:179 inc/widgets/widgets.php:295
+msgid "ePortfolio :- Social Widget"
+msgstr "ePortfolio :- Widget social"
+
+#: inc/customize/theme-option.php:127
+msgid "Select Number of Grid Column"
+msgstr "Selecciona el número de columnas de la cuadrícula"
+
+#: inc/widgets/widgets.php:360
+msgid "Displays bio details in post."
+msgstr "Mostrar los detalles de la biografía en la entrada."
+
+#: inc/customize/page-template.php:323
+msgid "Enable Slider Text Background"
+msgstr "Activar el fondo del texto del carrusel"
+
+#: inc/customize/page-template.php:220
+msgid "Category For Portfolio Section"
+msgstr "Categoría de la sección de porfolio"
+
+#: inc/customize/theme-option.php:180
+msgid "Global Page/Post Sidebar Layout"
+msgstr "Diseño de la barra lateral global de las páginas y entradas"
+
+#: inc/customize/theme-option.php:73
+msgid "Archive Section Setting Options"
+msgstr "Opciones de ajuste de la sección de archivo"
+
+#: inc/customize/page-template.php:150
+msgid "Portfolio Page Template Settings"
+msgstr "Ajustes de la plantilla de página de porfolio"
+
+#: inc/single-meta.php:22
+msgid "Single Page/Post Layout Settings"
+msgstr "Ajustes de diseño de las páginas y entradas individuales"
+
+#: inc/widgets/widgets-init.php:9
+msgid "Portfolio Template Widget Section"
+msgstr "Sección de widgets de la plantilla de porfolio"
+
+#: inc/customize/page-template.php:23
+msgid "Latest Posts / Blog Page Settings"
+msgstr "Ajustes de las últimas entradas y la página del blog"
+
+#: inc/customize/page-template.php:252
+msgid "Photography Page Template Settings"
+msgstr "Ajustes de la plantilla de página de fotografía"
+
+#: inc/customize/page-template.php:13
+msgid "Page-Template / Page Layout Options"
+msgstr "Opciones del diseño y la plantilla de página"
+
+#: inc/customize/page-template.php:185
+msgid "Enable Masonry Section On Portfolio"
+msgstr "Activar la sección de muro en el porfolio"
+
+#: inc/customize/page-template.php:134
+msgid "Select Number of Column in Grid view"
+msgstr "Selecciona el número de columnas en la vista de cuadrícula"
+
+#: inc/customize/theme-option.php:106
+msgid "Select Default Layout For Archive Post"
+msgstr "Selecciona el diseño por defecto del archivo de entradas"
+
+#: inc/customize/page-template.php:238
+msgid "Select No Of Post /. portfolio to show"
+msgstr "Selecciona el número de entradas/porfolios a mostrar"
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
+
+#: inc/customize/page-template.php:167
+msgid "Enable Portfolio Template Widget Section"
+msgstr "Activar la sección de widgets de la plantilla de porfolio"
+
+#: inc/customize/page-template.php:113
+msgid "Select Default Layout For Blog/Latest Post"
+msgstr "Selecciona el diseño por defecto de las últimas entradas y el blog"
+
+#: inc/customize/page-template.php:97
+msgid "Enable Switch/toggle Option on Blog Layout"
+msgstr "Activar el conmutador de opciones en el diseño del blog"
+
+#: inc/single-meta.php:77
+msgid "Check To Enable Featured Image On Single Page"
+msgstr "Márcalo para activar la imagen destacada en las páginas individuales"
+
+#: inc/customize/page-template.php:286
+msgid "Category For Photography Page Template Slider"
+msgstr "Categoría del carrusel de la plantilla de página de fotografía"
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema necesita el siguiente plugin: %1$s."
+msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el siguiente plugin: %1$s."
+msgstr[1] "Este tema recomienda los siguientes plugins: %1$s."
+
+#: inc/customize/page-template.php:79
+msgid "Number of Slider to be shown the allowed range is 1 - 4"
+msgstr "Número de diapositivas a mostrar. El rango permitido es de 1 a 4"
+
+#: inc/customize/page-template.php:305
+msgid "Number of Slider to be shown the allowed range is 1 - 9"
+msgstr "Número de diapositivas a mostrar. El rango permitido es de 1 a 9"
+
+#: inc/customize/page-template.php:239
+msgid "Number of Slider to be shown the allowed range is 1 - 20"
+msgstr "Número de diapositivas a mostrar. El rango permitido es de 1 a 20"
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin necesario está actualmente desactivado: %1$s."
+msgstr[1] "Los siguientes plugins necesarios están actualmente desactivados: %1$s."
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está desactivado: %1$s."
+msgstr[1] "Los siguientes plugins recomendado está desactivados: %1$s."
+
+#: inc/widgets/widgets.php:54
+msgid "Displays post form selected category as slider in any sidebars."
+msgstr "Muestra la categoría seleccionada del formulario de entradas como un carrusel en cualquier barra lateral."
+
+#: inc/customize/page-template.php:186
+msgid "After enabling this masonry section will be shown on portfolio side"
+msgstr "Después de activar esta sección de muro, se mostrará en el lado del porfolio"
+
+#: inc/customize/page-template.php:60
+msgid "Select category to be shown on Blog Page or post Page slider section "
+msgstr "Selecciona la categoría que se mostrará en la página del blog o en la sección del carrusel de las páginas y entradas "
+
+#: inc/customize/page-template.php:221
+msgid "Select category to be shown on Portfolio Page template - post list section "
+msgstr "Selecciona la categoría que se mostrará en la plantilla de página de porfolio: en la sección de lista de entradas "
+
+#: inc/customize/page-template.php:287
+msgid "Select category to be shown on photography Page template - post slider section "
+msgstr "Selecciona la categoría que se mostrará en la plantilla de página de fotografía: en la sección del carrusel de entradas "
+
+#: inc/customize/page-template.php:168
+msgid "After enabling please visit your widget.php and add widget on Portfolio Template Widget"
+msgstr "Después de activar, por favor, visita tu widget.php y añade el widget de la plantilla de porfolio"
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "El siguiente plugin debe actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+msgstr[1] "Los siguientes plugins deben actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+
+#: inc/customize/core/default.php:23
+msgid "About Me"
+msgstr "Sobre mí"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.themeinwp.com"
+msgstr "https://www.themeinwp.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "ThemeInWP"
+msgstr "ThemeInWP"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.themeinwp.com/theme/eportfolio"
+msgstr "https://www.themeinwp.com/theme/eportfolio"

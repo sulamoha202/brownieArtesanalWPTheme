@@ -1,0 +1,974 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ePortfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-01 11:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: classes/about-render.php:568
+msgid "$"
+msgstr ""
+
+#: classes/admin-notice.php:82
+#, php-format
+msgid ""
+"%1$s is now installed and ready to use. Are you looking for a better "
+"experience to set up your site?"
+msgstr ""
+
+#: functions.php:137
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customize/theme-option.php:131
+msgid "2-Column Layout"
+msgstr ""
+
+#: classes/about-render.php:185
+msgid "3"
+msgstr ""
+
+#: classes/about-render.php:175
+msgid "3 Layout"
+msgstr ""
+
+#: inc/customize/theme-option.php:130
+msgid "3-Column Layout"
+msgstr ""
+
+#: classes/about-render.php:186 classes/about-render.php:210
+#: classes/about-render.php:211
+msgid "4"
+msgstr ""
+
+#: classes/about-render.php:569
+msgid "49"
+msgstr ""
+
+#: classes/about-render.php:176
+msgid "5 Layout"
+msgstr ""
+
+#: classes/about-render.php:552
+msgid "800+ Font Families"
+msgstr ""
+
+#: inc/customize/core/default.php:23
+msgid "About Me"
+msgstr ""
+
+#: classes/plugin-classes.php:31
+msgid "Activate"
+msgstr ""
+
+#: classes/plugin-classes.php:144
+msgid "Activated"
+msgstr ""
+
+#: functions.php:215
+msgid "Active"
+msgstr ""
+
+#: inc/widgets/widgets-init.php:11 inc/widgets/widgets-init.php:20
+msgid "Add widgets here."
+msgstr ""
+
+#: classes/about-render.php:144
+msgid "Advance Color Option"
+msgstr ""
+
+#: inc/customize/page-template.php:168
+msgid ""
+"After enabling please visit your widget.php and add widget on Portfolio "
+"Template Widget"
+msgstr ""
+
+#: inc/customize/page-template.php:186
+msgid "After enabling this masonry section will be shown on portfolio side"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgid "ago"
+msgstr ""
+
+#: inc/widgets/widgets.php:61 inc/widgets/widgets.php:182
+msgid "All Categories"
+msgstr ""
+
+#: classes/about-render.php:214
+msgid "Archive Options"
+msgstr ""
+
+#: inc/customize/theme-option.php:73
+msgid "Archive Section Setting Options"
+msgstr ""
+
+#: classes/about-render.php:91
+msgid "Article Meta Settings"
+msgstr ""
+
+#: classes/about-render.php:29 classes/about-render.php:134
+msgid "Background Image"
+msgstr ""
+
+#: classes/about-render.php:139
+msgid "Basic Color Option"
+msgstr ""
+
+#: classes/about-render.php:535
+msgid ""
+"Behind every single customer support question stands a real person ready to "
+"fix the problem in real-time and guide you through."
+msgstr ""
+
+#: inc/widgets/widgets.php:385
+msgid "Bio Image:"
+msgstr ""
+
+#: inc/customize/theme-option.php:45
+msgid "Button Text"
+msgstr ""
+
+#: inc/customize/theme-option.php:62
+msgid "Button URL Link"
+msgstr ""
+
+#: inc/customize/page-template.php:59
+msgid "Category For Blog Slider"
+msgstr ""
+
+#: inc/customize/page-template.php:286
+msgid "Category For Photography Page Template Slider"
+msgstr ""
+
+#: inc/customize/page-template.php:220
+msgid "Category For Portfolio Section"
+msgstr ""
+
+#: classes/about-render.php:315
+msgid "Changelog"
+msgstr ""
+
+#: inc/single-meta.php:77
+msgid "Check To Enable Featured Image On Single Page"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Choose Image"
+msgstr ""
+
+#: classes/about-render.php:48 classes/about-render.php:551
+msgid "Color Options"
+msgstr ""
+
+#: classes/about-render.php:53
+msgid "Color Scheme"
+msgstr ""
+
+#: classes/about-render.php:44
+msgid "Color Settings"
+msgstr ""
+
+#: classes/about-render.php:194
+msgid "Coming Soon - Maintenance mode"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions.php:130
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/single-meta.php:86 inc/customize/theme-option.php:184
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customize/core/default.php:54
+msgid "Copyright All right reserved"
+msgstr ""
+
+#: classes/about-render.php:224
+msgid "Copyright Text Edit Option"
+msgstr ""
+
+#: classes/about-render.php:526
+msgid "Create a Ticket"
+msgstr ""
+
+#: classes/about-render.php:159
+msgid "Custom Widgets"
+msgstr ""
+
+#: functions.php:216 classes/plugin-classes.php:23
+msgid "Deactivate"
+msgstr ""
+
+#: classes/plugin-classes.php:135
+msgid "Deactivated"
+msgstr ""
+
+#: inc/customize/theme-option.php:216
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: inc/template-functions.php:135
+msgid "Demo Import Kit"
+msgstr ""
+
+#: classes/admin-notice.php:112
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/widgets/widgets.php:360
+msgid "Displays bio details in post."
+msgstr ""
+
+#: inc/widgets/widgets.php:54
+msgid "Displays post form selected category as slider in any sidebars."
+msgstr ""
+
+#: inc/widgets/widgets.php:170
+msgid ""
+"Displays post form selected category specific for popular post in sidebars."
+msgstr ""
+
+#: inc/widgets/widgets.php:284
+msgid "Displays Social share."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:93 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-functions.php:125
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/customize/page-template.php:185
+msgid "Enable Masonry Section On Portfolio"
+msgstr ""
+
+#: inc/customize/page-template.php:269
+msgid "Enable Overlay on Slider"
+msgstr ""
+
+#: inc/customize/page-template.php:167
+msgid "Enable Portfolio Template Widget Section"
+msgstr ""
+
+#: inc/customize/page-template.php:203
+msgid "Enable Portfolio Title"
+msgstr ""
+
+#: inc/customize/theme-option.php:270
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customize/page-template.php:41
+msgid "Enable Slider On Blog"
+msgstr ""
+
+#: inc/customize/page-template.php:323
+msgid "Enable Slider Text Background"
+msgstr ""
+
+#: inc/customize/theme-option.php:90
+msgid "Switch/Toggle Filter Icons on Archives"
+msgstr ""
+
+#: inc/customize/page-template.php:97
+msgid "Enable Switch/toggle Option on Blog Layout"
+msgstr ""
+
+#. Name of the theme
+#: classes/about.php:17
+msgid "ePortfolio"
+msgstr ""
+
+#: classes/about-render.php:164 inc/widgets/widgets.php:410
+msgid "ePortfolio :- Bio Widget"
+msgstr ""
+
+#: classes/about-render.php:169 inc/widgets/widgets.php:194
+msgid "ePortfolio :- Recent Post"
+msgstr ""
+
+#: classes/about-render.php:174 inc/widgets/widgets.php:73
+msgid "ePortfolio :- Slider Post"
+msgstr ""
+
+#: classes/about-render.php:179 inc/widgets/widgets.php:295
+msgid "ePortfolio :- Social Widget"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"ePortfolio is a free minimalist, SEO optimized multi-purpose WordPress "
+"Portfolio theme. ePortfolio is an ideal choice to create portfolio sites for "
+"photographers, digital marketers, agencies, graphic designers, video "
+"producers, web designers, web developers, professional bloggers and other "
+"freelance artistic or creative workers. This theme is compatible with "
+"Gutenberg, Elementor as well as other page builder plugins which helps you "
+"to deliver your content smoothly. Check our demo here:https://demo.themeinwp."
+"com/eportfolio/"
+msgstr ""
+
+#: inc/customize/customizer.php:48
+msgid "ePortfolio Pro"
+msgstr ""
+
+#: classes/plugin-classes.php:84
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: classes/about-render.php:244
+msgid "Facebook Fanpage widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:389
+msgid "Facebook URL:"
+msgstr ""
+
+#: classes/plugin-classes.php:181 classes/plugin-classes.php:190
+msgid "Failed"
+msgstr ""
+
+#: inc/customize/theme-option.php:243
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customize/theme-option.php:226
+msgid "Footer Options"
+msgstr ""
+
+#: classes/about-render.php:106
+msgid "Footer Setting"
+msgstr ""
+
+#: classes/about-render.php:184
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: classes/about-render.php:314
+msgid "Free vs Pro"
+msgstr ""
+
+#: classes/about-render.php:15
+msgid "General Settings"
+msgstr ""
+
+#: classes/about-render.php:313 classes/admin-notice.php:84
+msgid "Getting started"
+msgstr ""
+
+#: inc/customize/theme-option.php:180
+msgid "Global Page/Post Sidebar Layout"
+msgstr ""
+
+#: inc/customize/page-template.php:117 inc/customize/theme-option.php:110
+msgid "Grid/Masonry Layout"
+msgstr ""
+
+#: classes/about-render.php:129
+msgid "Header Image"
+msgstr ""
+
+#: classes/about-render.php:24
+msgid "Header Media"
+msgstr ""
+
+#: classes/about-render.php:81
+msgid "Header Settings"
+msgstr ""
+
+#: classes/about-render.php:251
+msgid "High Priority"
+msgstr ""
+
+#: classes/about-render.php:63 classes/about-render.php:67
+msgid "Homepage Content Section"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.themeinwp.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.themeinwp.com/theme/eportfolio"
+msgstr ""
+
+#: classes/about-render.php:234
+msgid "Instagram Feed Integration"
+msgstr ""
+
+#: inc/widgets/widgets.php:404
+msgid "Instagram URL:"
+msgstr ""
+
+#: classes/plugin-classes.php:34
+msgid "Install & Active"
+msgstr ""
+
+#: classes/admin-notice.php:93
+msgid "Install and activate recommended plugins"
+msgstr ""
+
+#: classes/plugin-classes.php:173
+msgid "Installed & Activated"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:47
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: classes/about-render.php:529
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/customize/page-template.php:23
+msgid "Latest Posts / Blog Page Settings"
+msgstr ""
+
+#: inc/customize/theme-option.php:142
+msgid "Layout Management"
+msgstr ""
+
+#: classes/about-render.php:101 inc/single-meta.php:62
+msgid "Layout Settings"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:76
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: classes/admin-notice.php:109
+msgid "Leave a review"
+msgstr ""
+
+#: classes/about-render.php:160
+msgid "less"
+msgstr ""
+
+#: classes/about-render.php:215 classes/about-render.php:220
+msgid "Limited"
+msgstr ""
+
+#: inc/widgets/widgets.php:399
+msgid "Linkedin URL:"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#: inc/customize/page-template.php:116 inc/customize/theme-option.php:109
+msgid "List Post Layout"
+msgstr ""
+
+#: classes/about-render.php:19
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: classes/about-render.php:124
+msgid "Logo and Site Title Option"
+msgstr ""
+
+#: classes/about-render.php:521
+msgid "Looking for help?"
+msgstr ""
+
+#: classes/about-render.php:34
+msgid "Menu Settings"
+msgstr ""
+
+#: classes/about-render.php:553
+msgid "More Custom Widgets"
+msgstr ""
+
+#: classes/about-render.php:554
+msgid "More Customizer controls"
+msgstr ""
+
+#: classes/about-render.php:555
+msgid "More page/post meta options"
+msgstr ""
+
+#: classes/about-render.php:559
+msgid "much more stuff..."
+msgstr ""
+
+#: inc/widgets/widgets.php:370
+msgid "Name:"
+msgstr ""
+
+#: classes/about-render.php:145 classes/about-render.php:150
+#: classes/about-render.php:155 classes/about-render.php:190
+#: classes/about-render.php:195 classes/about-render.php:200
+#: classes/about-render.php:225 classes/about-render.php:235
+#: classes/about-render.php:240 classes/about-render.php:245
+msgid "no"
+msgstr ""
+
+#: inc/single-meta.php:92 inc/customize/theme-option.php:185
+msgid "No Sidebar"
+msgstr ""
+
+#: classes/about-render.php:250
+msgid "Normal"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/widgets/widgets.php:64 inc/widgets/widgets.php:185
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/customize/page-template.php:239
+msgid "Number of Slider to be shown the allowed range is 1 - 20"
+msgstr ""
+
+#: inc/customize/page-template.php:79
+msgid "Number of Slider to be shown the allowed range is 1 - 4"
+msgstr ""
+
+#: inc/customize/page-template.php:305
+msgid "Number of Slider to be shown the allowed range is 1 - 9"
+msgstr ""
+
+#: inc/customize/theme-option.php:217
+msgid "Numeric"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: classes/about-render.php:199
+msgid "Onsite Popup Messages"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/customize/page-template.php:13
+msgid "Page-Template / Page Layout Options"
+msgstr ""
+
+#: classes/admin-notice.php:84
+msgid ""
+"page. It helps you get started and configure your upcoming website with ease."
+" Let's make it shine!"
+msgstr ""
+
+#: classes/about-render.php:209 inc/customize/theme-option.php:195
+msgid "Pagination Options"
+msgstr ""
+
+#: classes/about-render.php:86
+msgid "Pagination Settings"
+msgstr ""
+
+#: inc/customize/theme-option.php:212
+msgid "Pagination Type"
+msgstr ""
+
+#. Name of the template
+msgid "Photography Page Template"
+msgstr ""
+
+#: inc/customize/page-template.php:252
+msgid "Photography Page Template Settings"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Page Template"
+msgstr ""
+
+#: inc/customize/page-template.php:150
+msgid "Portfolio Page Template Settings"
+msgstr ""
+
+#: inc/widgets/widgets-init.php:9
+msgid "Portfolio Template Widget Section"
+msgstr ""
+
+#: inc/widgets/widgets.php:375
+msgid "Position/Sub Title:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: classes/about-render.php:229
+msgid "Pre-loader Animations"
+msgstr ""
+
+#: inc/customize/theme-option.php:253
+msgid "Preloader Options"
+msgstr ""
+
+#: functions.php:47 header.php:92
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/single-meta.php:89 inc/customize/theme-option.php:183
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: classes/admin-notice.php:80
+msgid "Quick Setup"
+msgstr ""
+
+#: inc/widgets/widgets.php:380
+msgid "Quotation:"
+msgstr ""
+
+#: classes/about-render.php:302
+msgid "Rate This Theme"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:27
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: classes/about-render.php:368
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/customize/theme-option.php:163
+msgid "Regular Format"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:289
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: classes/about-render.php:557
+msgid "Remove Footer Attribution (copyright)"
+msgstr ""
+
+#: classes/about-render.php:254
+msgid "Responsive Layout"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customize/page-template.php:60
+msgid "Select category to be shown on Blog Page or post Page slider section "
+msgstr ""
+
+#: inc/customize/page-template.php:287
+msgid ""
+"Select category to be shown on photography Page template - post slider "
+"section "
+msgstr ""
+
+#: inc/customize/page-template.php:221
+msgid ""
+"Select category to be shown on Portfolio Page template - post list section "
+msgstr ""
+
+#: inc/widgets/widgets.php:59 inc/widgets/widgets.php:180
+msgid "Select Category:"
+msgstr ""
+
+#: inc/customize/theme-option.php:159
+msgid "Select Date Format"
+msgstr ""
+
+#: inc/customize/theme-option.php:106
+msgid "Select Default Layout For Archive Post"
+msgstr ""
+
+#: inc/customize/page-template.php:113
+msgid "Select Default Layout For Blog/Latest Post"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Select Image"
+msgstr ""
+
+#: inc/customize/page-template.php:238
+msgid "Select No Of Post /. portfolio to show"
+msgstr ""
+
+#: inc/customize/page-template.php:78 inc/customize/page-template.php:304
+msgid "Select No Of Slider"
+msgstr ""
+
+#: inc/customize/page-template.php:134
+msgid "Select Number of Column in Grid view"
+msgstr ""
+
+#: inc/customize/theme-option.php:127
+msgid "Select Number of Grid Column"
+msgstr ""
+
+#: classes/about-render.php:264
+msgid "SEO Optimized"
+msgstr ""
+
+#: inc/customize/theme-option.php:28
+msgid "Short Description Details"
+msgstr ""
+
+#: inc/template-functions.php:242
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/single-meta.php:82
+msgid "Single Page/Post Layout"
+msgstr ""
+
+#: inc/single-meta.php:22
+msgid "Single Page/Post Layout Settings"
+msgstr ""
+
+#: inc/widgets/widgets-init.php:18
+msgid "Single Page/Post Sidebar"
+msgstr ""
+
+#: classes/about-render.php:219
+msgid "Single Post Options"
+msgstr ""
+
+#: classes/about-render.php:96
+msgid "Single Post Settings"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:48
+msgid "Social Menu"
+msgstr ""
+
+#: inc/widgets/widgets.php:329
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu "
+"on Menu Settings."
+msgstr ""
+
+#: classes/about-render.php:204
+msgid "Social Nav Options"
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: classes/plugin-classes.php:78
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: classes/about-render.php:119
+msgid "Supports One Click Demo Import"
+msgstr ""
+
+#: classes/about-render.php:189
+msgid "Table of Contents"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: classes/about-render.php:294
+msgid "Theme Details"
+msgstr ""
+
+#: classes/about-render.php:532
+msgid "Theme Documentation"
+msgstr ""
+
+#: classes/about-render.php:77 inc/customize/theme-option.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: classes/about-render.php:249
+msgid "Theme Support"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:45
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeInWP"
+msgstr ""
+
+#: inc/template-functions.php:140
+msgid "Themeinwp Import Companion"
+msgstr ""
+
+#: inc/customize/page-template.php:137
+msgid "Three Column Grid"
+msgstr ""
+
+#: inc/customize/theme-option.php:162
+msgid "Time Span Format"
+msgstr ""
+
+#: inc/widgets/widgets.php:175 inc/widgets/widgets.php:289
+#: inc/widgets/widgets.php:365
+msgid "Title:"
+msgstr ""
+
+#: classes/about-render.php:259
+msgid "Translations Ready"
+msgstr ""
+
+#: classes/about-render.php:239
+msgid "Twitter Feed Integration"
+msgstr ""
+
+#: inc/widgets/widgets.php:394
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/customize/page-template.php:138
+msgid "Two Column Grid"
+msgstr ""
+
+#: classes/about-render.php:154
+msgid "Typography Style Option"
+msgstr ""
+
+#: classes/about-render.php:548
+#, php-format
+msgid "Unlock all the Features with %1$s Pro"
+msgstr ""
+
+#: inc/customize/customizer.php:49
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: classes/about-render.php:565 classes/about-render.php:572
+#: classes/admin-notice.php:89
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Upload"
+msgstr ""
+
+#: inc/template-tags.php:206
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: classes/about-render.php:298 classes/admin-notice.php:100
+msgid "View Demo"
+msgstr ""
+
+#: classes/about-render.php:558
+msgid "VIP priority Support"
+msgstr ""
+
+#: classes/about-render.php:523
+msgid "We have some resources available to help you in the right direction."
+msgstr ""
+
+#: classes/admin-notice.php:84
+msgid "We've prepared a unique onboarding process through our"
+msgstr ""
+
+#: classes/about-render.php:149 classes/about-render.php:556
+msgid "Webmaster Tools"
+msgstr ""
+
+#: classes/about-render.php:120 classes/about-render.php:121
+#: classes/about-render.php:125 classes/about-render.php:126
+#: classes/about-render.php:130 classes/about-render.php:131
+#: classes/about-render.php:135 classes/about-render.php:136
+#: classes/about-render.php:140 classes/about-render.php:141
+#: classes/about-render.php:146 classes/about-render.php:151
+#: classes/about-render.php:156 classes/about-render.php:161
+#: classes/about-render.php:165 classes/about-render.php:166
+#: classes/about-render.php:170 classes/about-render.php:171
+#: classes/about-render.php:180 classes/about-render.php:181
+#: classes/about-render.php:191 classes/about-render.php:196
+#: classes/about-render.php:201 classes/about-render.php:205
+#: classes/about-render.php:206 classes/about-render.php:216
+#: classes/about-render.php:221 classes/about-render.php:226
+#: classes/about-render.php:230 classes/about-render.php:231
+#: classes/about-render.php:236 classes/about-render.php:241
+#: classes/about-render.php:246 classes/about-render.php:255
+#: classes/about-render.php:256 classes/about-render.php:260
+#: classes/about-render.php:261 classes/about-render.php:265
+#: classes/about-render.php:266
+msgid "yes"
+msgstr ""

@@ -1,0 +1,583 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+//variables para control de colores de fondos
+$brawnie-completo-bg-color: #9ABEAA;
+$comentraios-bg-color:#EBEAE7;
+$marisa-bg:#EBEAE7;
+$link-color: #c2bebe;
+$link-hover-color: darken($link-color, 10%);
+$btn-primary-color: #E56A54;
+$btn-secondary-color:#C6BFBF;
+$background-image: url('assets/img/Portada-brownies.jpg'); // Replace with the path to your image
+
+//variables para control de colores de textos 
+ $primary-text-color:white;
+ $marisa-text-color:#A09797;
+ $header-text-color:#26150A;
+ $btn-txt-secondary-color:#E56A54;
+
+
+//variables para control de fuentes de textos
+$primary-font : Josefin Sans ;
+$secondary-font : Playfair Display ;
+
+//variables para control de tamaño de diseño
+$image-small-width:280px; 
+$image-small-hieght:342px; 
+$image-medium-width:570px; 
+$image-medium-hieght:320px;
+$image-large-width:720px; 
+$image-large-hieght:403px;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $primary-font;
+  }
+  
+  
+
+  .header {
+    background: $background-image;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: $primary-text-color;
+    max-height: 1080px;
+
+    @media(max-width: 375px) {
+      height: 666.99px;
+    }
+
+    @media(min-width: 375px) {
+      height: 1023.99px;
+    }
+
+    .header-title{
+      width: 100%;
+      height: 85%;
+      max-height: 100%;
+      .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+      }
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 90px;
+        font-family: $secondary-font;
+        @media(max-width: 375px) {
+          font-size: 50px;
+        }
+        @media(max-width:768px) and (min-width: 375px) {
+          font-size: 80px;
+        }
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .btn-primary {
+        background-color: $btn-primary-color;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        &:hover{
+          background-color: $brawnie-completo-bg-color;
+        }
+    }
+
+    .navbar {
+        top:5%;
+        width: 100%;
+        height: 15%;
+        background: transparent !important;
+        display:inline-block;
+        align-items:center;
+
+        .container{
+          padding: 0;
+        }
+
+        .navbar-brand {
+          color: $primary-text-color;
+          font-weight: bold;
+          width: 350px;
+          height: 88px;
+          position: absolute;
+          top:5%;
+          left: 50%;
+          transform: translateX(-50%);
+
+          @media(max-width: 375px) {
+            width: 200px;
+            height: 60px;
+          }
+
+            @media(min-width: 375px) and (max-width:767px ){
+              width: 200px;
+              height: 60px;
+            }
+            @media(min-width: 768px) {
+              width: 280px;
+              height: 80px;
+            }
+            img{
+              width: 100%;
+              height: auto;
+            }
+        }
+        .profile-pic-container{
+          position: absolute;
+          display: flex;
+          right:4%;
+          top:12%;
+
+          img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+          }
+        }
+
+        .navbar-nav{
+          @media(min-width:1024px){
+            position: absolute;
+            right:8%;
+            top: 12%;
+          }
+        }
+
+        .nav-item{
+            .nav-link {
+              color: $primary-text-color;
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              &:hover {
+                  color: $marisa-text-color;
+              }
+            }
+        }
+        
+        
+        .navbar-toggler {
+          border: none;
+          background-color: transparent !important;
+
+          .navbar-toggler-icon {
+              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+          }
+      }
+        #navbarNav{
+          align-items: center;
+          justify-items: center;
+          align-items: center;
+          width: 100%0;
+        }
+    }
+}
+
+
+  .marisa{
+    background-color: $marisa-bg;
+    padding: 5rem 0;
+    .container-fluid{
+      display: flex;
+      flex-direction: grid;
+      align-items: center;
+      justify-content: center;
+      @media(max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .descripcion{
+          max-width: 80%;
+          padding: 0 2%;
+          
+          h2 {
+            font-weight: bold;
+            margin-bottom: 1rem;
+          }
+          
+          p {
+              font-size: 1rem;
+              line-height: 1.5;
+              color: $marisa-text-color;
+          }
+        }
+        .portrait-image{
+          width: 80%;
+          height: 400px;
+          max-width: 719px;
+          background-image: url("assets/img/Marisa-Salmoral.jpg");
+          background-size: cover;
+          background-position: center;
+          border-radius: 15px;
+          box-shadow: 0 0 15px rgb(0,0,0,0.2);
+          margin: 3rem auto;
+        } 
+      } 
+      @media(max-width:1024px) and (min-width:769px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .descripcion{
+              max-width: 719px;
+              min-width: 719px;
+              
+              h2 {
+                font-weight: bold;
+                margin-bottom: 1rem;
+              }
+              
+              p {
+                  font-size: 1rem;
+                  line-height: 1.5;
+                  color: $marisa-text-color;
+              }
+            } 
+            .portrait-image{
+              width: 80%;
+              height: 400px;
+              max-width: 719px;
+              background-image: url("assets/img/Marisa-Salmoral.jpg");
+              background-size: cover;
+              background-position: center;
+              border-radius: 15px;
+              box-shadow: 0 0 15px rgb(0,0,0,0.2);
+              margin: 3rem auto;
+            }
+      }
+      @media(min-width:1025px){
+        .descripcion{
+            max-width: 346px;
+            margin-right:3rem;
+            h2 {
+              font-weight: bold;
+              margin-bottom: 1rem;
+            }
+            
+            p {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: $marisa-text-color;
+            }
+          } 
+        .portrait-image{
+          width: 80%;
+          height: 400px;
+          max-width: 719px;
+          background-image: url("assets/img/Marisa-Salmoral.jpg");
+          background-size: cover;
+          background-position: center;
+          border-radius: 15px;
+          box-shadow: 0 0 15px rgb(0,0,0,0.2);
+        }
+      }
+      
+    }
+  }
+
+    .productos {
+      padding: 10rem 0;
+  
+      .tipo-brownie {
+          margin: 0;
+            height: 100%;
+            width: 100%;
+              h1 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+              }
+              .button-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap:10px;
+              }
+              .btn{
+                width: 55%;
+                display: flex;
+                flex-direction: column;  // Set button width to 55%    // Center text vertically
+                font-size: 18px;
+                cursor: pointer;
+
+                @media(max-width: 768px){
+                  font-size: 14px;
+                }
+              }
+      }
+  
+      h3 {
+          font-weight: bold;
+          font-size: 2rem ;
+          margin-bottom: 1rem;
+          @media(max-width: 768px){
+            padding: 0 4rem;
+          }
+      }
+  
+      p {
+          padding: 0 8rem;
+          margin:2rem 0;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #333;
+          @media(max-width: 768px){
+            padding: 0 4rem;
+          }
+      }
+  
+  
+      .btn-primary {
+          background-color: #f76545;
+          border-color: #f76545;
+          /* Layout Properties */
+          /* UI Properties */
+          border-radius: 8px;
+          opacity: 1;
+          width: 55%;  // Set button width to 55%
+          font-size: 18px;
+  
+          &:hover {
+              background-color: #e7543d;
+              border-color: #e7543d;
+          }
+      }
+  
+      .btn-secondary {
+          background-color: #C6BFBF;
+          border: none;
+          color: white;
+          /* UI Properties */
+          border-radius: 8px;
+          opacity: 1;
+          width: 55%;  // Center text horizontally    // Center text vertically         // Ensure flex display for centering
+          font-size: 18px;
+  
+          &:hover {
+              background-color: #bbb;
+              border-color: #bbb;
+          }
+      }
+  }
+         /* Estilos personalizados */     
+  .opciones-brownie {
+  background-color: $brawnie-completo-bg-color; 
+  color: white;
+  font-weight: bold;
+  padding: 8rem 5%;
+
+
+  .container-fluid {
+
+      h2 {
+        text-align: start;
+        font-size: 35px;
+        color:#26150A;
+    }
+    p {
+     
+        font-size: 1rem;
+
+        line-height: 1.5;
+        text-align: start;
+    }
+    .foto-brownie-completo{
+        .img-fluid {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
+    }
+    @media (max-width:768px){
+      .lg-device{
+        display: none;
+      } 
+      .sm-md-device{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        .probar-bronwie,.suscribirse-brownie{
+          padding: 0 2%;
+        }
+      }
+    }
+    @media (max-width:1080px) and (min-width:768px){
+      .lg-device{
+        display: none;
+      } 
+      .sm-md-device{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .descripcion{
+          margin-left: 2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          gap:5rem;
+
+          h1{
+            max-width: 176px;
+            min-width: 249px;
+          }
+          p{
+            max-width: 249px;
+            min-width: 249px;
+          }
+          .probar-bronwie,.suscribirse-brownie{
+            padding: 0 3%;
+          }
+        }
+
+      }
+    }
+    
+    @media(min-width:1080px){
+      .sm-md-device{
+        display: none ;
+      }
+      .lg-device{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: grid;
+        gap: 50px;
+        
+        .probar-bronwie{
+          width: 100%;
+        }
+        .suscribirse-brownie{
+          width: 100%;
+        }
+      } 
+    }
+    
+
+     
+    
+  }
+}
+
+    
+    .comentarios {
+      padding: 10rem 5rem;
+      background-color: $comentraios-bg-color;
+
+      @media(max-width:375px){
+        padding: 10rem 0;
+      } 
+      @media(min-width:375px){
+        padding: 10rem 2.5rem;
+      }
+      
+      #comentarioCarousel{
+        display:none;
+        @media(min-width: 768px){
+          display:block;
+          
+        }
+      }
+      .row{
+        display:none;
+        @media(min-width: 768px){
+          display:flex;
+        }
+      }
+
+      .comentario__container{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+
+        @media(min-width: 768px){
+          flex-wrap: wrap;
+          overflow-x:visible;
+        }
+      }
+
+      .comentario__item{
+        flex: 0 0 auto;
+        margin-right: 1rem;
+        
+        @media(min-width: 768px){
+          flex: 0 0 33.3333%;
+          margin-right:0;
+      }
+    }
+      .comentario {
+
+          border-radius: 10px;
+          padding: 20px 5px;
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+          .comentario__imagen {
+              width: 80px;
+              height: 80px;
+              background-color: #884848;
+              border-radius: 50%;
+              margin-bottom: 20px; /* Adjusted margin */
+          }
+          
+          .comentario__nombre {
+              font-size: 18px;
+              font-weight: bold;
+              text-align: center;
+          }
+  
+          .comentario__contenido {
+              text-align: center;
+              margin-bottom: 0;
+          }
+      }
+  }
+  
+
+.footer {
+  background-color: white;
+  padding: 1rem 0;
+  color: $marisa-text-color;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.875rem;
+  p {
+    margin: 0;
+    line-height: 1.5;
+    &:first-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+  a {
+    color: $link-color;
+    text-decoration: none;
+  
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: underline;
+    }
+  }
+
+}
