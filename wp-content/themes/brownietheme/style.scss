@@ -331,7 +331,7 @@ body {
   
 
   .tipo-brownie {
-      margin: 0;
+        margin: 0;
         height: 100%;
         width: 100%;
           h1 {
@@ -346,11 +346,16 @@ body {
             gap:10px;
           }
           .btn{
-            width: 251px;
+            width: 275px;
             height: 53px;
             display: flex;
-            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
             font-size: 18px;
+            font-weight: bold;
+            color: #26150A;
+            border-color: #26150A;
+            border-width: 2px;
             cursor: pointer;
 
             @media(max-width: 768px){
@@ -395,7 +400,7 @@ body {
         font-size: 1rem;
         line-height: 1.5;
         color: #333;
-        width: 416px;
+        width: 500px;
         text-align: center;
         justify-content: center;
         @media(max-width: 768px){
@@ -421,7 +426,7 @@ body {
         opacity: 1;
         width: 55%;  
         font-size: 18px;
-        @media(max-width: 425px){
+        @media(max-width: 768px){
           font-size: 14px;
         }
         &:hover {
@@ -438,8 +443,9 @@ body {
         opacity: 1;
         width: 55%;  // Center text horizontally    // Center text vertically         // Ensure flex display for centering
         font-size: 18px;
-        @media(max-width: 425px){
+        @media(max-width: 768px){
           font-size: 14px;
+          
         }
         &:hover {
             background-color: #bbb;
@@ -479,7 +485,7 @@ body {
         justify-content: center;
         @media(max-width: 768px){
           padding: 0 1rem;
-          width:274px
+          width:274px;
         }
       }
     img{

@@ -4,8 +4,8 @@
             <div class="container-fluid d-block d-md-none text-center justify-content-center align-items-center align-self-center py-5">
                 <h1>¿Qué Brownie te apetece hoy?</h1>
                 <div class="button-container">
-                    <a href="#brownie-de-chocolate" class="btn btn-sm btn-outline-secondary mb-md-2" style="height:50px;">Brownie de chocolate</a>
-                    <a href="#brownie-de-chocolate-con-nueces" class="btn btn-sm btn-outline-secondary mb-md-2" style="height:50px;">Brownie de chocolate con nueces</a>
+                    <button class="btn btn-sm btn-outline-secondary mb-md-2" style="height:50px;" onclick="location.href='#brownie-de-chocolate'">Brownie de chocolate</button>
+                    <button class="btn btn-sm btn-outline-secondary mb-md-2" style="height:50px;" onclick="location.href='#brownie-de-chocolate-con-nueces'">Brownie de chocolate con nueces</button>
                 </div>
             </div>
         </div>
